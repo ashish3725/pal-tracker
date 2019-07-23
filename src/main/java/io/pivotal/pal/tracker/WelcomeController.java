@@ -15,7 +15,7 @@ private String message;
 
     @GetMapping("/")
         public String sayHello() {
-            return "hello";
+            return message;
         }
 
     }
