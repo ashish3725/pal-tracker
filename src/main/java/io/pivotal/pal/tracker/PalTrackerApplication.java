@@ -10,11 +10,11 @@ import java.util.TimeZone;
 @SpringBootApplication
 public class PalTrackerApplication {
 
-    @Bean
+   /* @Bean
     public TimeEntryRepository timeEntryRepository() {
 
         return new InMemoryTimeEntryRepository();
-    }
+    }*/
 
 
     @Bean
